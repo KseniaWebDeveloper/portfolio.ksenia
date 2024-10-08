@@ -1,0 +1,197 @@
+@font-face {
+  font-family: "NeueMachina-Black";
+  src: url("./fonts/NeueMachina-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NeueMachina-Regular";
+  src: url("./fonts/NeueMachina-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NeueMachina-Light";
+  src: url("./fonts/NeueMachina-Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NeueMachina-Ultrabold";
+  src: url("./fonts/NeueMachina-Ultrabold.otf") format("opentype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NeueMachina-2";
+  src: url("./fonts/neue-machina-2.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+html,
+body,
+* {
+  font-family: "NeueMachina-Regular", sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "NeueMachina-Regular", sans-serif;
+}
+
+html {
+  font-family: "NeueMachina-Regular", sans-serif;
+  height: 100%;
+}
+
+.note {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 500%;
+  max-width: 1080px;
+  margin: 130px auto;
+  position: absolute;
+  left: 50%;
+  top: 100px;
+  transform: translateX(-50%);
+  font-family: "NeueMachina-Regular", sans-serif;
+}
+.note h2 {
+  font-size: 2.1em;
+  margin: 20px 0;
+  text-align: center;
+  font-weight: 550;
+  font-family: "NeueMachina-Regular", sans-serif;
+}
+.note p {
+  font-size: 2em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  text-align: center;
+  font-family: "NeueMachina-Regular", sans-serif;
+}
+
+body {
+  background-image: url("/15292711_5563098.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #eee;
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "NeueMachina-Regular", sans-serif;
+}
+
+header {
+  background-color: #d7d7d7;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(71, 29, 78, 0.3);
+}
+
+header h1 {
+  color: #fff;
+  font-family: "NeueMachina-Light", sans-serif;
+  font-weight: 300;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 20px auto;
+  max-width: 1080px;
+  flex: 1;
+}
+
+footer {
+  text-align: center;
+  width: 100%;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  margin-top: auto;
+  position: relative;
+}
+
+footer p {
+  color: #1a0621;
+}
+
+main {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 20px;
+  width: 350px;
+}
+
+main h2 {
+  font-weight: normal;
+}
+
+.photo-container {
+  margin-left: 10px;
+  width: 350px;
+}
+
+.photo-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  font-family: "NeueMachina-Regular", sans-serif;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  gap: 10px;
+  font-family: "NeueMachina-Regular", sans-serif;
+}
+
+button {
+  margin: 0;
+  color: #fff;
+  background-color: #7f76a1;
+  border: none;
+  width: 150px;
+  height: 36px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1em;
+  transition: background-color 0.3s;
+  font-family: "NeueMachina-Regular", sans-serif;
+}
+
+button:hover {
+  background-color: #ab6e8a;
+}
+
+.btn-black {
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.btn-black:hover {
+  background-color: #333;
+  color: white;
+}

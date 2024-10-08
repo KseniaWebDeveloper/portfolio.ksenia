@@ -1,0 +1,80 @@
+# Node modules
+node_modules/
+
+# Build output
+build/
+dist/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+
+# Miscellaneous
+*.tgz
+*.lock
+*.pid
+*.seed
+
+# macOS specific
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Игнорируем папку node_modules
+node_modules/
+
+# Игнорируем папку build (если она есть)
+build/
+
+# Игнорируем временные файлы и журналы
+*.log
+*.tmp
+*.temp
+
+# Игнорируем файлы конфигурации среды
+.env
+
+# Игнорируем файлы редакторов
+.idea/
+.vscode/
+
+# Игнорируем кэш
+.cache/
+
+# Игнорируем собранные файлы
+dist/
+
+# Игнорируем файлы системы (например, для macOS)
+.DS_Store
+
+# Игнорируем файлы тестов
+*.test.js
+*.spec.js
+
+# Игнорируем скомпилированные файлы
+*.js.map
+*.jsx.map
+
+# Игнорируем папки и файлы, создаваемые инструментами разработки
+coverage/
